@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.slide {
+
+  transform: scale(.8);
+  transition: .5s;
+  opacity: 5;
+}
+
+.activeSlide {
+
+  transform: scale(1.1);
+
+}
+
+.Sliderslide {
+
+  transform: scale(.7);
+  transition: .6s;
+  opacity: 5;
+}
+
+.SlideractiveSlide {
+ 
+  transform: scale(1.3);
+
+}
+
+.homeslide {
+  transform: scale y(1.6);
+  transition: .7s;
+  opacity: 16;
+}
+
+.homeactiveSlide {
+
+  transform: scale(1.7);
+
+}
+
+
+
+
